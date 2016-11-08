@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"
+        android:background="#ad1457"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/nameofmovie"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Movie Name?"
+            android:textSize="18sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:padding="20dp"
+            android:textColorHint="#880e4f"
+            android:textColor="#880e4f"
+            android:background="#fce4ec"
+            android:gravity="center"/>
+
+        <EditText
+            android:id="@+id/moviedetails"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:hint="Details of the movie?"
+            android:textSize="18sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:padding="10dp"
+            android:textColorHint="#880e4f"
+            android:textColor="#880e4f"
+            android:background="#fce4ec"
+            android:lines="8"
+            />
+
+
+
+
+        <Button
+            android:id="@+id/savedata"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_margin="20dp"
+            android:padding="20dp"
+            android:text="Save"
+            android:textColor="#880e4f"
+            android:background="#fff"
+            android:gravity="center"/>
+
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:background="#880e4f"
+        android:text="Show Saved"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:onClick="goToSecondActivity">
+
+    </Button>
+
+</LinearLayout>
